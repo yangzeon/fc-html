@@ -1,0 +1,464 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<meta name="keywords">
+<meta name="description">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<title>悦翠坊翡翠</title>
+<meta name="keywords" content="翡翠鉴定,悦翠坊翡翠,悦翠坊翡翠怎么样,悦翠坊,悦翠坊价格">
+<meta name="description" content="悦翠坊,专注传承中国玉石文化">
+<link href="./image/css.css" rel="stylesheet" type="text/css">
+<link href="./image/lrtk.css" rel="stylesheet" type="text/css">
+<script src="./image/hm.js"></script><script src="./image/hm.jss"></script><script src="./image/rand.js"></script>
+<style>
+.header{height:45px;}
+.dhnew a {display: block;    float: left;    width: 25%;    text-align: center;    line-height: 45px;    color: #FFF;    font-weight: bold; text-decoration:none;}
+    /*弹窗部分样式*/
+    .modal {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1040;
+        overflow: hidden;
+        -webkit-overflow-scrolling: touch;
+        outline: 0;
+        background: rgba(0,0,0,.3);
+        font-size: 16px;
+        text-align: center;
+    }
+    .modal-sm {
+        width: 90%;
+        margin: 30px auto;
+        max-width: 400px;
+    }
+    .modal-header {
+        min-height: 16.43px;
+        padding: 15px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    #mydel {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        right: -16px;
+        top: 82px;
+        background: rgba(0,0,0,.85);
+        color: #fff;
+        border-radius: 50px;
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .modal-content {
+        position: relative;
+        background-color: #fff;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        border: 1px solid #999;
+        border: 1px solid rgba(0, 0, 0, .2);
+        border-radius: 6px;
+        outline: 0;
+        -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+        box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    }
+    .modal-body {
+        position: relative;
+        padding: 15px;
+    }
+	
+	
+
+    @charset "utf-8";
+/* CSS Document */
+@media screen and (min-width: 500px) { 
+  #fatherDiv{width: 100%;margin:0 auto;border:1px solid #cdcdcd;}
+    #bottomBox{width:100%;} 
+    #topNav{width:100%;}
+} 
+@media screen and (min-width: 1020px) { 
+  #fatherDiv{width: 630px;margin:0 auto;border:1px solid #cdcdcd;}
+  #bottomBanner{display:none;} 
+    #bottomBox{width:630px;margin:0 auto;}
+    #topNav{width:630px;margin:0 auto;}
+} 
+.redb{color:red;font-weight: bold;}
+.division{
+  border:1px dashed #07D508;margin: 20px 0px 20px 0px;
+}
+img{
+  border:none;width:100%;height: auto;margin-top:15px;
+}
+p{line-height:1.8em;}
+.movi{
+  width: 100%;height: auto;border: 1px solid #f8f8f8;
+      box-shadow: 1px 2px 3px #cdcdcd;-webkit-box-shadow: 1px 2px 3px #cdcdcd;-moz-box-shadow: 1px 2px 3px #cdcdcd;-o-box-shadow: 1px 2px 3px #cdcdcd;  
+}
+
+#toWx{
+    height:55px;line-height:55px;width:90%;margin:10px 5% 10px 5%;background: #F95B5C;
+    text-align: center;font-weight: bold;color:white;font-size:1.4em;cursor:pointer;
+    border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;-o-border-radius:8px;
+}
+
+#bottomBox{
+     position: fixed;left:0%;right:0%;bottom: 0%;background: #eee;border-top: 1px solid #ccc;
+     font-size: 1em;padding:0px;z-index:9999;height:60px;
+}
+#topNav{
+     height:44px;position:fixed;top:0px;left:0px;right:0px;z-index: 100000;padding:5px;background:#217519;color:#fff;font-weight: bold;
+}
+#topNav ul{margin:0px;padding:0px;}
+#topNav ul li{
+    float: left;width:33.33%;height:30px;line-height: 30px;text-align: center;
+    list-style: none;
+}
+#topNav ul li:hover{
+    text-decoration: underline;
+}
+
+#consultationBtn{
+    display:block;position: fixed;top:50%;right:5px;padding:4px 0px 4px 0px;
+    z-index:90;cursor:pointer;background:#fff;border-radius:5px;
+    -webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;
+    text-align:center;
+}
+
+#markDiv{
+    position: absolute;top:-15px;left:0px;right:0px;bottom:-20px;background: black;
+    opacity:0.6;-moz-opacity:0.6;filter:alpha(opacity=60);z-index:99;display:none;
+}
+#winD{
+    position:absolute;top:60px;left:2%;right:2%;width:96%;background:#ffe5b3;
+    border-top:2px solid #0c5900;border-left:2px solid #0c5900;border-right:2px solid #0c5900;
+    border-bottom:2px solid #0c5900;z-index: 999;
+	display:none;
+}
+#winD table tr{height:30px;line-height: 30px;}
+#winD table tr td{padding-left:15px;}
+#winD table tr td span{font-weight: bold;color:#0c5900;}
+
+#windText{
+    width:96%;border:1px solid red;position:absolute;top:60px;left:2%;right:2%;
+    border:1px solid #eee;background:#fff;z-index:100;display:none;
+}
+#windText .imgTop img{
+    width:80%;margin-left:10%;
+}
+#windText .midText{
+     line-height: 1.2em;text-align:center;padding:15px;
+}
+#windText .bottomBtn{
+    text-align:center;
+}
+#windText .bottomBtn .span0{
+    display:inline-block;margin:0 auto;padding:15px;
+}
+#windText .bottomBtn .span1{
+    display:inline-block;width:85px;text-align:center;height:35px;line-height:35px;border:1px solid #cdcdcd;color:#cdcdcd;
+    border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-o-border-radius:10px;
+}
+#windText .bottomBtn .span2{
+    display:inline-block;width:85px;text-align:center;height:35px;line-height:35px;border:1px solid #00d48c;color:#00d48c;
+    border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-o-border-radius:10px;margin-left:85px;"
+}
+@charset "utf-8";  
+
+/* reset */  
+*{box-sizing: border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;}
+body {margin:0; padding:8px;font-family:Arial,Helvetica,san-serif;font-size:16px;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}
+
+  /* 初始化标签在所有浏览器中的margin、padding值 */    
+body,th,td,input,select,textarea,button {font-family:"微软雅黑", '黑体', 'Arial';}
+input,select,textarea,button {vertical-align:middle}
+
+a {color:#666;text-decoration:none}  /* 重置链接a标签 */  
+a:active, a:hover {text-decoration:none}   /* 重置链接a标签的鼠标滑动效果 */  
+table {width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;}    /* 重置table属性 */  
+img{vertical-align:top;padding:0px;margin:0px;border:none;outline: none;width:100%;height:auto;}  /* 图片在当前行内的垂直位置 */  
+   
+/* 页面设置 */  
+   
+  /* 取消a标签点击后的虚线框 */  
+a {outline: none;}    
+a:active {star:expression(this.onFocus=this.blur());}  
+   
+  
+/*清除浮动*/  
+.clear{clear: both;}  
+  
+/*清除浮动--推荐使用*/  
+.clearfix:before,.clearfix:after{content: '';display: table;}  
+.clearfix:after{clear: both;} 
+
+/* 常用css样式预留 */
+.red{color:red;};
+.red-bg{background:red;}
+.yellow{color:yellow;};
+.yellow-bg{background:yellow;}
+.bold{font-weight:bold;}
+.redb{color:red;font-weight: bold;}
+.copy-text{-webkit-user-select:text;-moz-user-select: text;-o-user-select: text;user-select: text;}
+.orange-cut-line{border-bottom:1px dashed #FA836F;margin: 20px 0px 20px 0px;}/* 橙色虚线分割 */
+
+</style>
+</head>
+<body>
+<div id="winD" style="display:;">
+        <table cellspacing="0" cellpadding="0" width="100%" border="0" height="100%">
+            <tbody>
+            <tr>
+                <td colspan="2">
+                    <div style="font-weight:bold;color:white;border:2px solid #fff;background:red;">
+                        &nbsp;&nbsp;翡翠世家-悦翠坊坚持：三成价格，十倍品质&nbsp;&nbsp;
+                    </div>
+                </td>
+            </tr>
+            <tr style="margin-top:10px;">
+                <td><img src="./image/vi.jpg" width="100%" height="100%" style="margin-top:0px;"></td>
+                <td style="padding:10px;text-align:left;">
+                    <div style="font-weight:bold;color:white;border:2px solid #fff;background:black;">
+                        &nbsp;&nbsp;注意！&nbsp;&nbsp;
+                    </div><br>
+                    <p style="text-indent:0em;font-size:1em;color:black;">
+大部分不太懂翡翠的消费者，如果没有专家朋友的帮助99%都会被坑！</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="bold" align="center">
+                    <span style="font-weight:bold;">添加小悦翡翠微信号，小悦帮您省钱买翡翠</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <span class="go" oncopy="_taq.push({convert_id:&#39;1606227523126276&#39;, event_type:&#39;other&#39;});toWeixin();" style="color:red;font-weight:bold;">
+                        <script>document.write(randnum[rand]);</script>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <span>长按上方微信号直接复制</span>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-top:2px solid #0c5900;" class="close" align="center" onclick="hiddentc()">
+                    <span>谢谢,我不怕买假</span>
+                </td>
+                <td style="border-top:2px solid #0c5900;" class="openWx" align="center" bgcolor="#0c5900" onclick="towx()">
+                    <a id="clickCopy" style="display:block;width:100%;"><span style="color:#fff;">复制微信</span></a>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+
+<div style="text-align:center;margin:20px">
+</div>
+<div class="header" style="margin-bottom:10px;">
+<div class="kuang1">
+  <div class="con" deep="1"><br>
+  <img src="./image/top...jpg">
+    <h1><br>玩翡翠，捂紧钱包，先听听来自悦翠坊创始人的心里话</h1>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大家好，<strong>我是小悦，在四会经营一家翡翠加工厂（四会是“中国玉器之乡”和“中华翡翠加工基地”，缅甸翡翠原料在四会经过精心的雕刻加工，然后卖往全国各地）</strong>。您能看到这篇文章，证明您也是位喜爱翡翠的朋友，与我们相遇便是缘分。我们的家族做翡翠生意已有<font color="red">20年</font>，至今，销售商共<font color="red">100多家</font>，遍布全国，并且与数十位省级玉雕师交情颇深。从小受家庭生意的耳濡目染，我非常明白您挑选翡翠的困惑，其实要买到货真价实、高性价比的翡翠一点都不难，只要您接着往下看！</p>
+	<p><img src="./image/m1.jpg"></p>
+    <h1 id="about">关于我们</h1>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们从事翡翠行业二十年，随着客户圈子的不断扩大，成立了自己的电商品牌——<font color="red">悦翠坊</font>，注册<font color="red">资金1000万</font>，专营翡翠。作为互联网+买手模式开拓者，我们将<font color="red">“三成价格，十倍品质”</font>作为悦翠坊的核心价值，并与设计师和翡翠艺术家合作，秉承匠人精神为您呈现悦品翡翠。</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们将每天在微信朋友圈中分享悦翠坊最新设计的翡翠，同时分享我们独家原创的翡翠知识，您只需<font color="red">添加我们微信</font>即可！    </p>
+    <p style="text-align:center;">
+    <strong>悦翠坊微信号：</strong>(长按复制) 
+	</p><p style="text-align:center;">
+		<span style="color:#e53333;font-size:25px;"><b><script>document.write(randnum[rand]);</script></b></span>
+    </p>
+
+    <p> <img src="./image/m2.jpg"> </p>
+    <p> <img src="./image/m3.jpg"> </p>
+    <p> <img src="./image/m4.jpg"> </p>
+    <br>
+  </div>
+</div>
+<br>
+<div class="kuang1">
+  <div class="con">
+    <h1>悦翠坊翡翠的优势：</h1>
+    <h2>一、源头采购，让利顾客：</h2>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在翡翠源头缅甸、揭阳，我们有自己的采购团队，以及高级玉雕师团队，<strong>我们的销售价格经常是其他商家的进货价格。</strong></p>
+	<img src="./image/590830135_1036069543_20.jpg" align="absmiddle">
+    <h2>二、保真，件件悦品：</h2>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>每件作品都会标明材料的来源，国家机构出具鉴定证书，绝不弄虚作假。悦翠坊出品每一件翡翠均提供国家机关鉴定证书一份，由国家检验中心认可，真品无惧检验！</strong></p>
+    <h2>三、价格便宜</h2>
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;悦翠坊集自采原料、设计雕刻、电商销售于一体，因此每件翡翠均为一手货源，绝无中间商赚差价！公司只赚设计加工费，把更大的利润空间留给代理，最大的翡翠价值留给顾客！</p>
+    <h2>四、分享翡翠知识干货</h2>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;朋友圈会发一些文玩鉴别知识、设计图、加工图、私人订制的成功案例等，让朋友们与翡翠近距离接触，也会揭穿一些无良商贩的翡翠造假、售假手段以及伎俩，看后可避免上当！</p>
+    <h2>五、优惠活动：</h2>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们会不定时推出超级福利活动，用一块翡翠的价格买到十块翡翠的价值，每逢节假日更有买、减、赠活动，超级福利，关注微信随时掌握！</p>
+        
+    <p style="text-align:center;">
+    <strong>悦翠坊微信号：</strong>(长按复制) 
+	</p><p style="text-align:center;">
+		<span style="color:#e53333;font-size:25px;"><b><script>document.write(randnum[rand]);</script></b></span>
+    </p>
+
+	<h2>一、为何缅甸翡翠是最好的？怎么挑选超值翡翠？</h2>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;缅甸玉又称翡翠玉。由于缅甸翡翠玉硬度高，光洁明亮。且好的翡翠颜色既鲜亮又平和，有很高的保值和收藏价值，故而称为“玉中之王”。被很多爱玉、佩玉的人所喜爱。由于翡翠玉产在紧邻中国的缅甸，且大部分成品在中国加工的特殊地缘关系，加之中国人对翡翠玉的特别偏爱，因此缅甸翡翠在中国享有“国玉”的地位。悦翠坊手中的翡翠均产自缅甸，若您对缅甸翡翠感兴趣，可添加微信，可与我交流，相遇便是缘分。</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经常有人表示，自己很喜欢翡翠，但没有专业知识，对翡翠不够了解，心里没底。翡翠种类如此之多，看的眼花缭乱，都不知道如何选择适合自己的。这个问题，我想也是大部分初入门翠友的心声，翡翠讲究眼缘，外行看色，内行看种，我们就归纳了几点挑选翡翠的要点大家在选购的时候可以进行考虑。</p>
+    <p> <img width="100%" src="./image/t10_03.jpg"> </p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;选择一款心仪的翡翠并不容易，翡翠讲究“眼缘”，看对了，其它也变得不重要了，喜欢便是一切。如果在选购方面还有不懂，不了解的可以加我的微信 我来详细为你介绍怎么挑选翡翠的要点！</p>
+    <h2>二、翡翠寓意</h2>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国的吉祥寓意图太多了，每种图案的意义不同，适合的人群也不同。送礼之前要好好研究一番，才会四两拨千斤，送得人心花怒放。
+    </p><p><img width="100%" src="./image/438121913_1035450047_01.jpg"><img width="100%" src="./image/438121913_1035450068_02.jpg"> </p>
+    <h2>三、翡翠种地</h2>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;俗话说，外行看色，内行看种，翡翠的种，也就是它质地本身的美丽程度，好的翡翠应该是质地细腻无暇透明度高，甚至起胶，起荧，刚性足的，翡翠底子好，就犹如美人的好皮肤，不需要上妆，无论怎么看，都是美的。</p>
+    <p><img width="100%" src="./image/438121913_1036162740_002.jpg"> </p>
+    <h2>四、翡翠工艺</h2>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;翡翠从粗糙的原石到水润喜人的饰品，这都少不了雕工匠师的存在。经过雕刻的翡翠，造型新颖多变，玉能陶冶人，也能装点您的魅力，只有好的雕工才对得起自然的精品，才能配得上您的气质！</p>
+    <p> <img width="100%" src="./image/438121913_1036162726_001.jpg"> </p>
+    <h2>五、完美度</h2>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“无纹不成玉”。“玉无纹，天无云，玉有纹，身有银”，正如天上有云一样，玉必然也有纹。不同的人对于瑕疵的理解不同，有人认为裂纹才算瑕疵，有人认为石花杂色也算瑕疵，也有人认为翠性（沙星）都算瑕疵。翡翠行业内基本认同裂纹、裂绺才算瑕疵。比较中肯的观点是：裂纹、裂绺一定算瑕疵；翠性（沙星）一定不算瑕疵；杂筋、石纹、石花、杂色、脏点等如果程度较深足以影响原件的美观就算瑕疵，如果程度较浅对原件的美观没有明显的影响就不算瑕疵。</p>
+    <p> <img width="100%" src="./image/438121913_1036164097_003.jpg"> </p>
+    <h1 id="contecta">如何鉴定翡翠</h1>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果您有这方面问题想详细了解，不妨添加我的微信，就当交个朋友，我们随时交流。</p>
+     <p style="text-align:center;">
+    <strong>悦翠坊微信号：</strong>(长按复制) 
+	</p><p style="text-align:center;">
+		<span style="color:#e53333;font-size:25px;"><b><script>document.write(randnum[rand]);</script></b></span>
+    </p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;翡翠造假的手段技术层出不穷，严重扰乱市场秩序，但总体而言，鉴别翡翠还是集中于一下几点：</p>
+    <p> 1.&nbsp;听声音： 轻轻敲打天然翡翠，发出的是一种清脆悦耳之声，如果是人工处理品则发出低沉闷哑的声音</p>
+2.&nbsp;看颜色： 天然翡翠颜色自然，分布不均，绿色走向延长，一般无荧光,翡翠颜色繁多，初分有红、黄、紫、墨等，如其中一色“绿”细分又有帝王绿、阳绿、菠菜绿、苹果绿等，颜色是决定翡翠价格的重要因素之一，极品翡翠，颜色略略差别一点，就可以价格相差几十倍，用一双锐利的眼睛去分辨颜色，是每位翠友都要学习的。<p></p>
+    <p> <img width="100%" src="./image/438121913_1036229566_004.jpg"> </p>
+3.&nbsp;看抛光面： 天然翡翠的抛光面细腻、光滑，呈带油脂的强玻璃光泽，如果在抛光面上仔细观察，通常可见到花斑一样的变斑晶交织结构；同时可见微透明至不透明的白色纤维状晶体，俗称“石花”<p></p>
+4.&nbsp;看内部结构： 翡翠经强酸碱浸泡处理后，在透射光照射下，可见内部纵横交织的裂隙。
+这些方法可以帮助各位翠友在选购时做一些初步判断，如果要深入了解，学习更多翡翠知识，可以联系我们，让我成为您身边的翡翠顾问。<br><br>
+</div>
+</div>
+<br>
+<div class="kuang1" id="pricea">
+  <div class="con">
+    <h1>翡翠价格</h1>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;翡翠是玉石之冠，高档翡翠在各拍卖会上不断创造令人惊叹的天价，但仿冒天然翡翠的B、C货及其他仿冒品业层出不穷。所以弄清楚翡翠价格是至关重要，翡翠的价格参考依据根据其翡翠的种、水、色、工、大小、瑕疵等 因素综合决定的。不是所有的翡翠价格都贵，只有那些产量稀少，品相极佳，雕工出色的翡翠价值才高，之所以高主要是极佳的翡翠产量极为稀少而市场又认可追捧。翡翠的价值是多个因素综合定价的，但种水色工四个最重要的指标，是衡量一件翡翠是否有收藏价格的基础！
+	</p>
+	<p style="text-align:center;">
+    <strong>悦翠坊微信号：</strong>(长按复制) 
+	</p><p style="text-align:center;">
+		<span style="color:#e53333;font-size:25px;"><b><script>document.write(randnum[rand]);</script></b></span>
+    </p>
+	<p><strong>加【悦翠坊】微信号，你可以看到我们朋友圈中的翡翠，每天都有大量的新品上新，多看看你就会更了解和掌握翡翠的价格！</strong></p>
+    <p> <br> </p>
+    </div>
+</div>
+<br>
+	<div class="kuang1">
+		<div class="con">
+
+    <div class="kuang1"><br>
+  <h1>真乃居先，诚为业本！翡翠一手货源，超值优选，每日上新，物美价廉。</h1>
+  </div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;鉴定证书就跟我们每一个人有一个唯一的身份证一样，对于入行不久的朋友，通过鉴定证书就能直接的判断所买翡翠的真假。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;悦翠坊出售的所有翡翠，都是正规权威国检证书，认证机构给当前的翡翠成品进行严苛鉴定，保证绝无任何虚假。并且悦翠坊<strong>支持终身复检</strong>。</p>
+      <p> <img src="./image/jd.jpg"> </p>
+	  <p>
+      <img id="tu1" width="100%" src="./image/438121913_1039045220_438121913_1039020470_590830135_1038559520_10.jpg" align="absmiddle">
+    </p>
+      <p>
+      </p><h1>让你放心购，大胆购！我承诺给你提供以下保障：</h1><p></p>
+	  <p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;悦翠坊以顾客为先，您收到货后有任何问题，请及时联系我们，我们服务到您满意为止！<br><br>
+1. &nbsp;零风险保障：所有货品保证无条件退货（签收起，如不满意，24小时内退换并寄出）。<br>
+2. &nbsp;一手货源：工厂直接发货，省去中间环节加价，至少省去70%加价。<br>
+3. &nbsp;假一罚十：保证天然翡翠A货，国家权威证书保证，支持任何专业机构检验。<br>  
+	  </p>
+    <p>
+    </p><p style="text-align:center;">
+      但是如果你盲目购买翡翠，买到假货的风险将一直存在！<br><br>
+      除了好坏辨别之外，如果……<br><br>
+	  <font color="red">
+      你想了解更多翡翠知识；<br>
+      翡翠A货 B货 C货如何区别；<br>
+      你想在购买前咨询一下行家的建议；<br>
+      或者你已经购买了翡翠，又不确定真假；</font><br>
+      </p><p style="text-align:center;">
+      (打开微信+加我为好友)<br>
+       </p><p style="text-align:center;">
+    <strong>悦翠坊微信号：</strong>(长按复制)
+	</p><p style="text-align:center;">
+		<span style="color:#e53333;font-size:25px;" id="article"><b><script>document.write(randnum[rand]);</script></b></span><br><br>
+      假货不得人心，说真话，卖真货，标实价，悦翠坊让你买翡翠不吃药。<br></p>
+<p><img width="100%" src="./image/5.jpg" align="absmiddle"></p>
+<br>
+<style>.tubiao img{ margin-top:2px;}</style>
+</div>
+</div>
+<br>
+<br>
+<br>
+<div class="float_qb">
+  <dl style=" font-size:12px; float:left;">
+    <dd><div style="float:left;">悦翠坊微信号</div>：<span class="go"><script>document.write(randnum[rand]);</script></span>(长按复制) <br>
+      一手货源，假一赔十</dd>
+  </dl>
+  <a id="zhuanhua" href="weixin://" style="float: right;margin-top:-2px;margin-left:10px;width:30px;height:35px;line-height: 36px;text-align: center;box-shadow: 0 1px 3px 0 #000;width:64px;
+float:right;margin-right:4px;background: #3FB837;color: #FFF;border-radius: 10px;text-decoration:none;">复制微信</a> </div>
+
+
+<script> 
+      document.getElementById('article').addEventListener('click', copyArticle, false);
+      document.getElementById('zhuanhua').addEventListener('click', copyArticle, false);
+    	function copyArticle(event) {
+            const range = document.createRange();
+            range.selectNode(document.getElementById('article'));
+
+            const selection = window.getSelection();
+            if (selection.rangeCount > 0) selection.removeAllRanges();
+            selection.addRange(range);
+            document.execCommand('copy'); alert("已复制好，可以去微信贴粘啦！");
+            document.getElementById('zhuanhua').href="weixin://";
+        }
+
+</script> 
+<script>
+    pushHistory();
+    window.addEventListener("popstate", function(e) {
+      var tc = document.getElementById('winD');
+      if (tc) {
+        tc.style.display = 'block';
+      }
+      var s = document.getElementsByTagName("body")[0]; 
+      s.style.overflowY = 'hidden';
+    }, false);
+    function pushHistory() {
+    var state = {
+      title: "悦翠坊翡翠",
+      url: "#"
+      };
+      window.history.pushState(state, "title", "#");
+    }
+    function hiddentc() {
+      var tc = document.getElementById('winD');
+      tc.style.display = 'none';
+      var s = document.getElementsByTagName("body")[0]; 
+      s.style.overflowY = 'scroll';
+    };
+    function towx() {
+      const range = document.createRange();
+            range.selectNode(document.getElementById('article'));
+
+            const selection = window.getSelection();
+            if (selection.rangeCount > 0) selection.removeAllRanges();
+            selection.addRange(range);
+            document.execCommand('copy');
+      window.location.href="weixin://";
+    }
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?7a206e182b563e580c8ac46b9c3b98bd";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div></body></html>
